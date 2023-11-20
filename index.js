@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero){
     if (numero % 2 === 0) {
        return numero.toString(2);
@@ -14,3 +15,13 @@ function constanza(){
         nacionality: "Argentina"
     }
 }
+=======
+function laCajaDePandora(numero) {
+  // proximamente escribiremos codigo aqui
+  if (numero % 2 === 0) {
+    return numero.toString(8);
+  } else {
+    return numero.toString(7);
+  }
+}
+
