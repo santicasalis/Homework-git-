@@ -1,27 +1,17 @@
 
-function laCajaDePandora(numero){
-    if (numero % 2 === 0) {
-       return numero.toString(2);
-    } else {
-        return numero.toString(16);
-    }
-}
-
-
-function constanza(){
-    return{
-        name: "constanza",
-        age: 31,
-        nacionality: "Argentina"
-    }
-}
-=======
 function laCajaDePandora(numero) {
-  // proximamente escribiremos codigo aqui
   if (numero % 2 === 0) {
-    return numero.toString(8);
+    return numero.toString(2);
   } else {
-    return numero.toString(7);
+    return numero.toString(16);
   }
+}
+
+function ludmila() {
+  return {
+    name: "Ludmila",
+    age: 29,
+    nationality: "argentina",
+  };
 }
 
