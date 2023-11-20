@@ -5,3 +5,12 @@ function laCajaDePandora(numero){
         return numero.toString(16);
     }
 }
+
+
+function constanza(){
+    return{
+        name: "constanza",
+        age: 31,
+        nacionality: "Argentina"
+    }
+}
