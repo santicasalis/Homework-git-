@@ -5,3 +5,11 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+
+function ludmila() {
+  return {
+    name: "Ludmila",
+    age: 29,
+    nationality: "argentina",
+  };
+}
