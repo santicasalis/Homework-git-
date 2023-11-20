@@ -3,6 +3,6 @@ function laCajaDePandora(numero) {
   if (numero % 2 === 0) {
     return numero.toString(8);
   } else {
-    return numero.toString(7);
+    return numero.toString(5);
   }
 }
