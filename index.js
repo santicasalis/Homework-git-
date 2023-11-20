@@ -6,3 +6,11 @@ function laCajaDePandora(numero){
         return Number(numero.toString(16));
     }
 }
+
+const Jared = () => {
+    return {
+        name : 'Jared Delgado',
+        edad : 24,
+        nacionalidad : 'Argentino'
+    }
+}
